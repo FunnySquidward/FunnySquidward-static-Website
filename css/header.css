@@ -1,0 +1,92 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #f3f5f7;
+    border-bottom: 2px solid #be003c;
+}
+.header-in {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-in .logo {
+    width: 200px;
+    height: 100px;
+    background-image: url(../img/logo.png);
+    float: left;
+}
+.header-in .nav {
+    margin-left: 32px;
+    float: left;
+}
+.header-in .nav li {
+    height: 100px;
+    float: left;
+    /* background-color: aqua; */
+    list-style: none;
+    /* line-height: 100px; */
+    text-align: center;
+}
+.header-in .nav li a {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 40px;
+}
+.header-in .nav li a:hover {
+    /* background-color: #b0b2b0; */
+    background-color: #be003c;
+    color: white;
+    font-weight: 600;
+}
+.header-in .search {
+    width: 410px;
+    height: 100px;
+    padding-top: 30px;
+    margin-left: 50px;
+    float: left;
+}
+.header-in .search div {
+    float: left;
+}
+.header-in .search input[type="text"] {
+    width: 360px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.header-in .search input[type="button"] {
+    width: 50px;
+    height: 40px;
+    background-image: url(../img/search-button.png);
+    border: none;
+    cursor: pointer;
+}
+.header-in .login {
+    width: 70px;
+    height: 100px;
+    margin-right: 0;
+    line-height: 100px;
+    float: right;
+    font-size: 14px;
+}
+.header-in .login a:hover {
+    color: #be003c;
+}

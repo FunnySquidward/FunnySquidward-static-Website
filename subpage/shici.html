@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shici</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/shici.css">
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-in">
+            <div class="logo" onclick="ClickLogo()"></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="./shufa.html">书法</a></li>
+                    <li><a href="./shici.html">诗词</a></li>
+                    <li><a href="./about.html">关于</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <div><input type="text" placeholder="  请输入关键字"></div>
+                <div><input type="button" onclick="ClickSearchButton()"></div>
+            </div>
+            <div class="login">
+                <a href="./login.html">登录</a>
+                |
+                <a href="./reg.html">注册</a>
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <!-- 城市图片展示 -->
+        <div class="shici">
+            <h1 id="jingxuan">精选诗词</h1>
+            <div class="hhl-info" onclick="ToPage('hhl')">
+                <div>
+                    <img src="../img/shici-img01.png" alt="">
+                </div>
+                <div>
+                    <h3>《黄鹤楼》</h3>
+                    <p>作者：崔颢</p>
+                    <p>昔人已乘黄鹤去，此地空余黄鹤楼。</p>
+                    <p>黄鹤一去不复返，白云千载空悠悠。</p>
+                    <p>晴川历历汉阳树，芳草萋萋鹦鹉洲。</p>
+                    <p>日暮乡关何处是，烟波江上使人愁。</p>
+                </div>
+            </div>
+            <div class="jnflgn-info" onclick="ToPage('jnflgn')">
+                <div>
+                    <h3>江南逢李龟年 </h3>
+                    <p>作者：杜甫</p>
+                    <p>岐王宅里寻常见，</p>
+                    <p>崔九堂前几度闻。</p>
+                    <p>正是江南好风景，</p>
+                    <p>落花时节又逢君。</p>
+                </div>
+                <div>
+                    <img src="../img/shici-img02.png" alt="">
+                </div>
+            </div>
+            <div class="smhrzgl-info" onclick="ToPage('smhrzgl')">
+                <div>
+                    <img src="../img/shici-img03.png" alt="">
+                </div>
+                <div>
+                    <h3>送孟浩然之广陵 </h3>
+                    <p>作者：李白</p>
+                    <p>故人西辞黄鹤楼，</p>
+                    <p>烟花三月下扬州。</p>
+                    <p>孤帆远影碧空尽，</p>
+                    <p>惟见长江天际流。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚部分 -->
+    <div class="footer">
+        <p>感谢您访问本网站！</p>
+    </div>
+</body>
+
+</html>

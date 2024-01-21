@@ -1,0 +1,22 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+/* #################footer####################### */
+.footer {
+    height: 200px;
+    background-color: #be003c;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    margin-top: 20px;
+}

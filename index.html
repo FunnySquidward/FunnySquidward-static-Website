@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中华优秀传统文化</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-in">
+            <div class="logo" onclick="HomeClickLogo()"></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="./subpage/shufa.html">书法</a></li>
+                    <li><a href="./subpage/shici.html">诗词</a></li>
+                    <li><a href="./subpage/about.html">关于</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <div><input type="text" placeholder="  请输入关键字"></div>
+                <div><input type="button" onclick="ClickSearchButton()"></div>
+            </div>
+            <div class="login">
+                <a href="./subpage/login.html">登录</a>
+                |
+                <a href="./subpage/reg.html">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="banner-in"></div>
+    </div>
+    <div class="main">
+        <div class="main-in">
+            <div class="main-in-top">
+                <div id="main01" onclick="ToPage('shufa')"></div>
+                <div id="main02" onclick="ToPage('shici')"></div>
+                <div id="main03" onclick="ToPage('meishi')"></div>
+                <div id="main04" onclick="ToPage('yueju')"></div>
+                <div id="main05" onclick="ToPage('piying')"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚部分 -->
+    <div class="footer">
+        <p>感谢您访问本网站！</p>
+    </div>
+</body>
+</html>

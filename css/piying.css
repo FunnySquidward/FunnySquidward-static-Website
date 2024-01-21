@@ -1,0 +1,55 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+/* ################################# */
+.main {
+    /* height: 1000px; */
+    border: 1px solid transparent;
+}
+.main-in {
+    width: 1200px;
+    /* height: 1000px; */
+    /* border: 1px solid black; */
+    margin: 20px auto 0;
+}
+.main-in h1 {
+    color: #be003c;
+    margin-top: 20px;
+}
+.main-in h1[id="top-h1"] {
+    margin-top: 0;
+}
+.main-in h3 {
+    color: #be003c;
+    margin-top: 20px;
+}
+.main-in p {
+    text-indent: 2em;
+    margin-top: 20px;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+}
+.main-in p[class="info"]{
+    font-size: 14px;
+    font-family: "宋体";
+    color: #666666;
+    text-align: center;
+    margin: 20px 0;
+}
+.main-in img {
+    display: block;
+    width: 650px;
+    height: 400px;
+    margin: 20px auto 0;
+}

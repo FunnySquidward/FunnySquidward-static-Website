@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reg page</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-in">
+            <div class="logo" onclick="ClickLogo()"></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="./shufa.html">书法</a></li>
+                    <li><a href="./shici.html">诗词</a></li>
+                    <li><a href="./about.html">关于</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <div><input type="text" placeholder="  请输入关键字"></div>
+                <div><input type="button" onclick="ClickSearchButton()"></div>
+            </div>
+            <div class="login">
+                <a href="./login.html">登录</a>
+                |
+                <a href="./reg.html">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-in">
+            <div class="box">
+                <div class="loginBox">
+                    <form action="#" method="post">
+                        <!-- 注册信息 -->
+                        <div class="welcome">
+                            <h1>注册账号</h1>
+                        </div>
+                        <div class="loginInput">
+                            <label for="">用户名</label><input type="text" placeholder="请输入用户名">
+                        </div>
+                        <div class="loginInput">
+                            <label for="">密码</label><input type="password" placeholder="请输入密码">
+                        </div>
+                        <div class="loginInput">
+                            <label for="">确认密码</label><input type="password" placeholder="请再次输入密码">
+                        </div>
+                        <div class="loginInput">
+                            <label for="">邮箱</label><input type="email" placeholder="请输入邮箱">
+                        </div>
+                        <div class="loginInput">
+                            <label for="">爱好</label><select name="" id="">
+                                <option value="pleace select">---请选择---</option>
+                                <option value="basketball">篮球</option>
+                                <option value="soccer">足球</option>
+                                <option value="badminton">羽毛球</option>
+                            </select>
+                        </div>
+                        <div class="loginInput">
+                            <input type="submit" value="立即注册" onclick="">
+                        </div>
+                        <div class="info">
+                            <a href="./login.html">已有账号？点击登录</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

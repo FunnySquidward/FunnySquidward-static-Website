@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meishi</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/meishi.css">
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-in">
+            <div class="logo" onclick="ClickLogo()"></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="./shufa.html">书法</a></li>
+                    <li><a href="./shici.html">诗词</a></li>
+                    <li><a href="./about.html">关于</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <div><input type="text" placeholder="  请输入关键字"></div>
+                <div><input type="button" onclick="ClickSearchButton()"></div>
+            </div>
+            <div class="login">
+                <a href="./login.html">登录</a>
+                |
+                <a href="./reg.html">注册</a>
+            </div>
+        </div>
+    </div>
+        <!-- 主体部分 -->
+        <div class="main">
+            <!-- 城市图片展示 -->
+            <div class="shici">
+                <h1 id="jingxuan">传统美食</h1>
+                <div class="hhl-info" onclick="ToPage('jiaozi')">
+                    <div>
+                        <img src="../img/meishi-img01.png" alt="">
+                    </div>
+                    <div>
+                        <h3>饺子</h3>
+                        <p>饺子是中华传统美食之一，它</p>
+                        <p>的历史非常久远。人们一般会</p>
+                        <p>在冬至时以及节假日时吃饺子。</p>
+                        <p>饺子可以有很多种口味，蔬菜</p>
+                        <p>鲜肉玉米香菇，样样都行。</p>
+                    </div>
+                </div>
+                <div class="jnflgn-info" onclick="ToPage('zongzi')">
+                    <div>
+                        <h3>粽子 </h3>
+                        <p>粽子是中华传统节庆食物之一，</p>
+                        <p>由粽叶包裹糯米制成。粽子在</p>
+                        <p>不同的地区有着不同的习俗，</p>
+                        <p>也有着不同的口味，北方以</p>
+                        <p>甜口为主，而南方则为咸口。</p>
+                    </div>
+                    <div>
+                        <img src="../img/meishi-img02.png" alt="">
+                    </div>
+                </div>
+                <div class="smhrzgl-info" onclick="ToPage('mooncake')">
+                    <div>
+                        <img src="../img/meishi-img03.png" alt="">
+                    </div>
+                    <div>
+                        <h3>月饼 </h3>
+                        <p>月饼最早是人们用来拜祭月神的供品。</p>
+                        <p>祭月，在中国是一种十分古老的习俗。</p>
+                        <p>月饼是一种非常传统且久远的美食。</p>
+                        <p>人们每到中秋节，都会买来送礼及食用。</p>
+                        <p>月饼象征着团圆，深受中国人喜爱。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- 页脚部分 -->
+    <div class="footer">
+        <p>感谢您访问本网站！</p>
+    </div>
+</body>
+</html>
